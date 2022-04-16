@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Login</title>
+</head>
+<body>
+    
+   
+<div class="container-fluid">
+  <div class="col-10 m-auto mt-5">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+        <div class="container-fluid">
+          <a class="navbar-brand col-1"  href="#">
+              <img src="img/logoDMI.png" alt="" class="img-fluid">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+      
+          <div class="collapse navbar-collapse" id="navbarColor01">
+            <ul class="navbar-nav me-auto">
+             <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"><i class="fa-solid fa-bars" style="font-size: 20px;"></i></a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Gestion del estudiante</a>
+                  <a class="dropdown-item" href="#">Estudiante</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Gestion del curso</a>
+                  <a class="dropdown-item" href="#">Gestion asistencia</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Reportes</a>
+                  <a class="dropdown-item" href="#">Reportes de notas</a>
+                  <a class="dropdown-item" href="#">Reportes de asistencia</a>
+                </div>
+              </li>
+            </ul>
+             <div>
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item dropdown">
+                       <a class="nav-link dropdown-toggle text-white" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false" style="background-color:rgb(233, 18, 18);">Admin</a>
+                       <div class="dropdown-menu">
+                         <a class="dropdown-item" href="#">About</a>
+                         <div class="dropdown-divider"></div>
+                         <a class="dropdown-item" href="#">Cerrar sesion <i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+                         
+                       </div>
+                     </li>
+                   </ul>
+             </div>
+          </div>
+        </div>
+      </nav>
+  </div>
+</div>
+<div class="container-fluid">
+    <div class="col-7 m-auto">
+        <h2 class="mt-5 mb-3">Gestion de clase: Registro</h2>
+        <h4>Datos de la clase</h4>
+        <form action="" class="full mt-1">
+            <div class="d-flex flex-wrap justify-content-between">
+                <div class="col-4">
+                    <div class="form-group full">
+                        <label class="text-black">Codigo de clase</label>
+                        <input type="text" class="form-control text-black" readonly value="CC00001">
+                    </div>
+                    <div class="form-group full mt-3">
+                        <label class="text-black">Curso</label>
+                        <select class="form-select border__gray text-black">
+                            <option>-- Seleccionar --</option>
+                            <option>Curso 1</option>
+                            <option>Curso 2</option>
+                            <option>Curso 3</option>
+                            <option>Curso 4</option>
+                          </select>
+                    </div>
+                    <div class="form-group full mt-3">
+                        <label class="text-black">Inicio de Clase</label>
+                        <input type="date" class="form-control text-black">
+                    </div>
+                    <div class="form-group full mt-3">
+                        <label class="text-black">Aula</label>
+                        <select class="form-select border__gray text-black">
+                            <option>-- Seleccionar --</option>
+                            <option>Aula 1</option>
+                            <option>Aula 2</option>
+                            <option>Aula 3</option>
+                            <option>Aula 4</option>
+                          </select>
+                    </div>
+                    <div class="form-group full mt-3">
+                        <label class="text-black">EStado</label>
+                        <select class="form-select border__gray text-black">
+                            <option>-- Seleccionar --</option>
+                            <option>Activo</option>
+                            <option>Inactivo</option>
+                        
+                          </select>
+                    </div>
+                </div>
+                <div class="col-4">
+                    <div class="form-group full">
+                        <label class="text-black">Docente</label>
+                        <select class="form-select border__gray text-black">
+                            <option>-- Seleccionar --</option>
+                            <option>Docente 1</option>
+                            <option>Docente 2</option>
+                            <option>Docente 3</option>
+                            <option>Docente 4</option>
+                          </select>
+                    </div>
+                    <div class="form-group full mt-3">
+                        <label class="text-black">Horario</label>
+                        <select class="form-select border__gray text-black">
+                            <option>-- Seleccionar --</option>
+                            <option>Horario 1</option>
+                            <option>Horario 2</option>
+                            <option>Horario 3</option>
+                            <option>Horario 4</option>
+                          </select>
+                    </div>
+                    <div class="form-group full mt-3">
+                        <label class="text-black">Fecha de finalizacion</label>
+                        <input type="date" class="form-control text-black">
+                    </div>
+                    <div class="form-group full mt-3">
+                        <label class="text-black">Libro</label>
+                        <select class="form-select border__gray text-black">
+                            <option>-- Seleccionar --</option>
+                            <option>Libro 1</option>
+                            <option>Libro 2</option>
+                            <option>Libro 3</option>
+                            <option>Libro 4</option>
+                          </select>
+                    </div>
+                </div>
+            </div>
+            <div class="form-group full mt-3">
+                <button class="btn btn-success full">Crear clase</button>
+                <a href="Gestionclase.html" class="btn btn-danger me-3">Cancelar</a>
+            </div>
+        </form>
+    </div>
+</div>   
+<br>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/ccf76aa2b3.js" crossorigin="anonymous"></script>
+</body>
+</html>

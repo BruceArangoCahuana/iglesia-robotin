@@ -1,0 +1,49 @@
+.container-fluid{
+    width: 80%!important;
+    max-width: 1000px!important;
+}
+.card__login{
+    height: 300px!important;
+}
+.full{
+    width: 100%!important;
+}
+.card__heigth{
+    
+}
+.card__heigth a{
+    font-size: 20px!important;
+    text-decoration: none;
+}
+.btn-primary-green{
+    background-color: rgb(124, 201, 9)!important;
+}
+a{
+    text-decoration: none;
+}
+.border__radius{
+    border-radius: 10px!important;
+}
+.mrig{
+    margin-right: 5px;
+}
+.btn-warning{
+    background-color: rgb(139, 185, 79)!important;
+}
+tbody .table-active .acciones .icono__hover{
+    cursor: pointer!important;
+}
+.icono__hover:hover{
+    background-color: rgb(167, 165, 165)!important;
+}
+.bg__gray{
+    background-color: rgb(70, 64, 64)!important;
+}
+.form-select{
+    border: 2px solid black !important;
+}
+@media (max-width: 800px) {
+   .full__media{
+       width: 100%!important;
+   }
+  }
